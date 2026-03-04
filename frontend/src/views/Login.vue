@@ -1,0 +1,1 @@
+<template>\n  <form @submit.prevent="login">\n    <!-- TODO: simple email input, store in local state -->\n  </form>\n</template>\n<script>\nexport default {\n  name: 'Login',\n  methods: {\n    login() {\n      // TODO: store email to simulate session\n    }\n  }\n}\n</script>
