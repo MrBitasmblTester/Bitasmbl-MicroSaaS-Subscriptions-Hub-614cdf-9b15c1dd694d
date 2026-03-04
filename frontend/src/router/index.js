@@ -1,0 +1,1 @@
+// router/index.js\nimport { createRouter, createWebHistory } from 'vue-router'\nimport Dashboard from '../views/Dashboard.vue'\n\nconst routes = [\n  { path: '/', name: 'Dashboard', component: Dashboard },\n  // TODO: add Login and SubscriptionDetail routes\n];\n\nexport default createRouter({\n  history: createWebHistory(),\n  routes,\n});
