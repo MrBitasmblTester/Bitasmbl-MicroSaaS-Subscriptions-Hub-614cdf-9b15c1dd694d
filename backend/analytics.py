@@ -1,0 +1,1 @@
+# analytics.py\nfrom models import SUBSCRIPTIONS\n\ndef usage_summary():\n    # TODO: compute totals per plan and estimated cost\n    return {\n        'total_subscriptions': len(SUBSCRIPTIONS),\n        'by_plan': {}\n    }
