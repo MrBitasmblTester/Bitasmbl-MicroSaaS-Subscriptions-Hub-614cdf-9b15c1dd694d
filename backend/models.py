@@ -1,0 +1,1 @@
+# models.py\n# TODO: replace with real persistence later if desired\nclass Subscription:\n    def __init__(self, sub_id, user_email, plan, usage=0):\n        self.id = sub_id\n        self.user_email = user_email\n        self.plan = plan\n        self.usage = usage\n\n# TODO: in-memory "tables"\nSUBSCRIPTIONS = []
