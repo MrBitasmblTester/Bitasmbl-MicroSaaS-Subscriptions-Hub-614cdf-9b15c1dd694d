@@ -1,0 +1,1 @@
+<template>\n  <div id="app">\n    <!-- TODO: add nav bar and router-view -->\n    <h1>MicroSaaS Subscriptions Hub</h1>\n  </div>\n</template>\n<script>\nexport default { name: 'App' }\n</script>
