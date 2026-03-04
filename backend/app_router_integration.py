@@ -1,0 +1,1 @@
+# app_router_integration.py\n# TODO: import Handler from app.py and use list_subscriptions/create_subscription\n# Example idea (pseudocode):\n# if self.path == '/subscriptions' and self.command == 'GET':\n#     data = list_subscriptions()\n#     self._send_json(data)
