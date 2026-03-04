@@ -1,0 +1,1 @@
+# requirements.txt\n# TODO: add any third-party libs you choose (e.g. for routing/auth)\n# Example:\n# fastapi==0.115.0\n# uvicorn==0.30.0
