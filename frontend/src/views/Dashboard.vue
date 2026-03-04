@@ -1,0 +1,1 @@
+<template>\n  <section>\n    <h2>Your Subscriptions</h2>\n    <!-- TODO: loop subscriptions and show usage -->\n  </section>\n</template>\n<script>\nimport { getSubscriptions } from '../services/api'\nexport default {\n  name: 'Dashboard',\n  async mounted() {\n    // TODO: load data from backend\n  }\n}\n</script>
