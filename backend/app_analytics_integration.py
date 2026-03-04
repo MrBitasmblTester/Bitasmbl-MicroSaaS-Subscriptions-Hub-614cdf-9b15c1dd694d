@@ -1,0 +1,1 @@
+# app_analytics_integration.py\nfrom analytics import usage_summary\n\ndef handle_analytics_request(handler):\n    # handler: existing HTTP request handler\n    data = usage_summary()\n    # TODO: serialize data as JSON and send 200 response
