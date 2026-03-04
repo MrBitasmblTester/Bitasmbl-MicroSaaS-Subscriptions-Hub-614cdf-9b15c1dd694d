@@ -1,0 +1,1 @@
+// main.js\nimport { createApp } from 'vue'\nimport App from './App.vue'\n// TODO: import router when created\n\ncreateApp(App)\n  // .use(router)\n  .mount('#app')
