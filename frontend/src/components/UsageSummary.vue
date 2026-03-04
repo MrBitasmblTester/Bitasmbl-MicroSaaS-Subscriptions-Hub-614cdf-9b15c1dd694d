@@ -1,0 +1,1 @@
+<template>\n  <div>\n    <h3>Usage Summary</h3>\n    <!-- TODO: render totals and per-plan breakdown -->\n  </div>\n</template>\n<script>\nimport { getUsageSummary } from '../services/api'\nexport default {\n  name: 'UsageSummary',\n  mounted() {\n    // TODO: fetch and show analytics from backend\n  }\n}\n</script>
