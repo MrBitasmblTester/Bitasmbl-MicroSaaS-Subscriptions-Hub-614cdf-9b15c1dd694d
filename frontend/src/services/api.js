@@ -1,0 +1,1 @@
+// services/api.js\nconst BASE_URL = 'http://localhost:8000';\n\nexport async function getHealth() {\n  // TODO: handle errors and loading states\n  const res = await fetch(`${BASE_URL}/health`);\n  return res.json();\n}\n// TODO: add subscription-related calls
