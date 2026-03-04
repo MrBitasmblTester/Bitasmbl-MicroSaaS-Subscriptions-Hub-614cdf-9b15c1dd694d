@@ -1,0 +1,1 @@
+# config.py\nAPI_PORT = 8000\n# TODO: add simple in-memory 'database' for subscriptions/users\nMOCK_SUBSCRIPTIONS = [\n    {"id": 1, "plan": "Starter", "usage": 0}\n]
